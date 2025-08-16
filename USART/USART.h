@@ -30,7 +30,7 @@ extern "C" {
     void USART_init(void);
     void USART_transmit(unsigned char data);
     void USART_transmit_str(const char *str);
-    uint8_t USART_recive(void);
+    unsigned char USART_recive(void);
     
 #ifdef	__cplusplus
 }
